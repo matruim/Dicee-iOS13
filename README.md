@@ -24,6 +24,11 @@ We’re going to make a Las Vegas dice app. You can make the die roll at the pre
 * Learn about randomisation and how to generate random numbers in Swift.
 
 
+## Things Accomplished
+* Added UI elements to the Main Storyboard
+* Programmatically modified UI elements
+
+
 
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
