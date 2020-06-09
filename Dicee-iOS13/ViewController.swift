@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+  @IBOutlet weak var diceImageView1: UIImageView!
+  @IBOutlet weak var diceImageView2: UIImageView!
+  @IBOutlet weak var btnRollDice: UIButton!
+  
+  override func viewDidLoad() {
+      super.viewDidLoad()
+        
+      diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
+      diceImageView2.image = #imageLiteral(resourceName: "DiceSix")
+      
+      diceImageView1.alpha = 0.5
     }
 
 
